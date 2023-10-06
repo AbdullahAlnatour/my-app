@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: bisque;
+  font-family:'Times New Roman', Times, serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+  font-family:'Times New Roman', Times, serif;
+}
+header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.border{
+  border-radius: 20px;
+}
+nav ul{
+  list-style: none;
+  text-align: center;
+  border: 5px solid whitesmoke;
+  background-color:antiquewhite;
+  border-radius: 30px;
+}
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav li{
+  display: inline-block;
+  margin-right: 70px;
+  font-size: 26px;
+}
+nav li a:hover{
+  color: rgb(0, 225, 255);
+}
+section{
+  display:flex;
+}
+.color article{
+  flex: 1;
+  margin-right: 7px;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.b:hover{
+  animation: tilt 4s infinite linear;
+}
+@keyframes tilt{
+  0%{
+      transform: scale(1);
+  }
+  30%{
+      transform: scale(1.2);
+  }
+  60%{
+      transform: scale(1.1);
+  }
+  100%{
+      transform: scale(1);
+  }
+}
+footer{
+  display: flex;
+}
+footer div{
+  flex: 1;
+}
+.r{
+  text-align: end;
+}
+div >img{
+  border: 5px solid white;
+  border-radius: 40px;
+}
+input:invalid{
+  border:2px solid red;
+}
